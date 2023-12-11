@@ -1,0 +1,228 @@
+:root {
+    --header-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+    --brand-color-navy-blue: #2E2F42;
+    --brand-color-iris: #4D5AE5;
+    --brand-color-slate: #434455;
+    --brand-color-ocean: #404BBF;
+    --brand-color-cloud: #F4F4FD;
+    --brand-color-cornflower: #E7E9FC;
+}
+/* Global styles */
+body {
+    background-color: #FFFFFFFF;
+    font-family: var(--header-font-family);
+    color: var(--brand-color-slate);
+}
+
+/* Classes */
+.list {
+    list-style: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--brand-color-ocean);
+}
+
+
+.address {
+    font-style: normal;
+}
+
+.logo-web {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    color: var(--brand-color-iris);
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-studio {
+    color: var(--brand-color-navy-blue);
+    font-size: 18px;
+    font-style: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-weight: 800px;
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+    color: var(--brand-color-navy-blue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    color: var(--brand-color-ocean);
+}
+
+.nav-link:focus {
+    color: var(--brand-color-ocean);
+}
+
+.contact {
+    color: var(--brand-color-slate);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.row-list {
+    background-color: #FFFFFFFF;
+}
+
+.button-filters {
+    font-family: var(--header-font-family);
+    border: none;
+    color: #4d5ae5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--brand-color-cloud);
+}
+
+.button-filters:hover,
+.button-filters:focus {
+    background-color: var(--brand-color-ocean);
+    color:#FFFFFFFF;
+    border: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.row-one {
+    text-decoration: none;
+}
+
+.row-header {
+    color: var(--brand-color-navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    font-style: normal;
+    
+}
+
+.row-paragraf {
+    color: var(--brand-color-slate);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    font-style: normal;
+}
+
+/* Footer symols */
+
+footer {
+    font-family: var(--logo-font-family);
+    background-color: var(--brand-color-navy-blue);
+}
+
+.footer-paragraf {
+    color: var(--brand-color-cloud);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.logo-studio-footer {
+    color: var(--brand-color-cloud);
+    font-size: 18px;
+    font-style: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    font-weight: 800px;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Section 1 from main - index.html */
+
+.first-section {
+    background-color: #2E2F42;
+    color: white;
+}
+
+.first-section-title {
+    font-family: var(--header-font-family);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.first-section-button {
+    font-family: var(--header-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    background-color: var(--brand-color-iris);
+    color: #ffffff;
+}
+
+.first-section-button:hover,
+.first-section-button:focus {
+    background-color: var(--brand-color-ocean);
+}
+/* Section 2 from main - index.html */
+
+.images-title-index {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--brand-color-navy-blue);
+    font-style: normal;
+    background-color: #ffffffff;
+}
+
+.images-text-index {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--brand-color-slate);
+}
+
+/* Section 3 from main - index.html */
+
+.section-titles-index {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: var(--brand-color-navy-blue);
+    text-align: center;
+}
+
+/* Section 4 from main - index.html */
+
+.fourth-section-main{
+    background-color: var(--brand-color-cloud);
+}
+
+.fourth-section {
+    background-color: #FFFFFFFF;
+}

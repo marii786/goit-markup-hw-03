@@ -262,15 +262,18 @@ footer {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px
 }
 
 .about-list {
     display: flex;
+    gap: 24px;
 }
 
 .trait-container {
     display: flex;
     flex-direction: column;
+    margin-right: 24px;
 }
 
 

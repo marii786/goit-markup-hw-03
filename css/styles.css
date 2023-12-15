@@ -53,12 +53,12 @@ body {
 .header-navbar {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-navbar-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .logo-web {

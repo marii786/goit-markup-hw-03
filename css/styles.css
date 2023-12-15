@@ -38,6 +38,7 @@ body {
   }
  
 .header-second-container {
+    display: flex;
     border-bottom: 1px solid var(--brand-color-cornflower);
 }  
 
@@ -45,7 +46,6 @@ body {
     width: 1158px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .header-navbar {

@@ -171,6 +171,8 @@ body {
 footer {
     font-family: var(--logo-font-family);
     background-color: var(--brand-color-navy-blue);
+    display: flex;
+    padding: 100px 0;
 }
 
 .footer-paragraf {
@@ -262,7 +264,7 @@ footer {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .about-list {

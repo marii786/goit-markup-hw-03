@@ -28,6 +28,9 @@ body {
     color: var(--brand-color-ocean);
 }
 
+.all-the-images {
+    display: block;
+}
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -49,6 +52,7 @@ body {
 .header-navbar-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .logo-web {
@@ -60,6 +64,7 @@ body {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -71,6 +76,7 @@ body {
     text-transform: uppercase;
     font-weight: 800px;
     font-family: var(--logo-font-family);
+    margin-right: 76px;
 }
 
 .header-navbar-list {
@@ -182,6 +188,7 @@ footer {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 
 .logo-studio-footer {
@@ -193,6 +200,7 @@ footer {
     text-transform: uppercase;
     font-weight: 800px;
     font-family: "Raleway", sans-serif;
+    display: inline-block;
 }
 /* index.html */
 

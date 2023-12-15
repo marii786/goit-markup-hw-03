@@ -10,17 +10,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Hero Section -->
-    <header>
-      <nav>
+    <header class="container">
+      <div class="header-container">
+      <nav class="header-navbar">
         <!-- Logo -->
-        <a class="logo-web link" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a>
+      <a class="logo-web link" href="./index.html"
+      >Web<span class="logo-studio">Studio</span></a>
         <!-- Navigation -->
-        <ul class="list">
+        <ul class="header-navbar-list list">
           <li><a class="nav-link link" href="./index.html">Studio</a></li>
           <li>
             <a class="nav-link link" href="./portfolio.html">Portfolio</a>
@@ -29,8 +37,8 @@
         </ul>
       </nav>
       <!-- Address -->
-      <address class="address">
-        <ul class="list">
+      <address class="header-address list">
+        <ul class="hearder-address-elements list">
           <li>
             <a class="contact link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a>
@@ -41,6 +49,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </header>
     <main>
       <!-- Section 1 from Main -->
@@ -51,31 +60,32 @@
         <button type="button" class="first-section-button pointer">Order Service</button>
       </section>
       <!-- Section 2 from Main -->
-      <section>
-        <h2 hidden>NU ESTE UN TITLU!</h2>
-        <ul class="list">
-          <li>  
+      <section class="second-section">
+        <div class="container">
+        <h2 class="visually-hidden">NU ESTE UN TITLU!</h2>
+        <ul class="about-list list">
+          <li class="trait-container">  
             <h3 class="images-title-index">Strategy</h3>
             <p class="images-text-index">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="trait-container">
             <h3 class="images-title-index">Punctuality</h3>
             <p class="images-text-index">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="trait-container">
             <h3 class="images-title-index">Diligence</h3>
             <p class="images-text-index">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="trait-container">
             <h3 class="images-title-index">Technologies</h3>
             <p class="images-text-index">
               Design practice focused on digital experiences. We bring forth a
@@ -83,11 +93,12 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!-- Section 3 from Main -->
-      <section>
-        <h2 class="section-titles-index">What are we doing</h2>
-        <ul class="list">
+      <section class="third-section">
+        <h1 class="section-titles-index">What are we doing</h1>
+        <ul class="third-section-list list">
           <li>
             <img
               src="./images/rectangle1.jpg"
@@ -113,14 +124,14 @@
       </section>
       <!-- Section 4 from Main -->
       <section class="fourth-section-main">
-        <h2 class="section-titles-index">Our Team</h2>
-        <ul class="list">
+        <h1 class="section-titles-index">Our Team</h1>
+        <ul class="fourth-section-list list">
           <li class="fourth-section">
             <img
               src="./images/img1.jpg"
               alt="Mark Guerrero"
               />
-            <h3 class="images-title-index">Mark Guerrero</h3>
+            <h1 class="images-title-index">Mark Guerrero</h1>
             <p class="images-text-index">Product Designer</p>
           </li>
           <li class="fourth-section">
@@ -128,7 +139,7 @@
               src="./images/img2.jpg"
               alt="Tom Ford"
              />
-            <h3 class="images-title-index">Tom Ford</h3>
+            <h1 class="images-title-index">Tom Ford</h1>
             <p class="images-text-index">Frontend Developer</p>
           </li>
           <li class="fourth-section">
@@ -136,7 +147,7 @@
               src="./images/img3.jpg"
               alt="Camila Garcia"
             />
-            <h3 class="images-title-index">Camila Garcia</h3>
+            <h1 class="images-title-index">Camila Garcia</h1>
             <p class="images-text-index">Marketing</p>
           </li>
           <li class="fourth-section">
@@ -144,7 +155,7 @@
               src="./images/img4.jpg"
               alt="Daniel Wilson"
             />
-            <h3 class="images-title-index">Daniel Wilson</h3>
+            <h1 class="images-title-index">Daniel Wilson</h1>
             <p class="images-text-index">UI Designer</p>
           </li>
         </ul>

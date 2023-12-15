@@ -8,18 +8,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <!--Menu nav -->
-      <nav>
-        <a class="logo-web link" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
+    <header class="container">
+      <div class="header-container">
+      <nav class="header-navbar">
+        <!-- Logo -->
+      <a class="logo-web link" href="./index.html"
+      >Web<span class="logo-studio">Studio</span></a>
         <!-- Navigation -->
-        <ul class="list">
+        <ul class="header-navbar-list list">
           <li><a class="nav-link link" href="./index.html">Studio</a></li>
           <li>
             <a class="nav-link link" href="./portfolio.html">Portfolio</a>
@@ -28,11 +35,11 @@
         </ul>
       </nav>
       <!-- Address -->
-      <address class="address">
-        <ul class="list">
+      <address class="header-address list">
+        <ul class="hearder-address-elements list">
           <li>
             <a class="contact link" href="mailto:info@devstudio.com"
-              >info@d evstudio.com</a>
+              >info@devstudio.com</a>
           </li>
           <li>
             <a class="contact link" href="tel:+110001111111"
@@ -40,6 +47,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </header>
     <!-- Main Section -->
     <main>

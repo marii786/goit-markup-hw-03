@@ -321,6 +321,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-bottom: 120px;
 }
 
 .section-titles-index {
@@ -332,6 +333,7 @@ footer {
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 72px;
 }
 
 .third-section-list {

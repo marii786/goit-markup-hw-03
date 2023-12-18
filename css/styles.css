@@ -351,7 +351,7 @@ footer {
 
 .fourth-section {
   background-color: #ffffffff;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-top-right-radius: 4px;
@@ -372,7 +372,7 @@ footer {
   padding: 32px 0;
 }
 
-.forth-section-h3-titles {
+.forth-section-h-titles {
   text-align: center;
   margin-bottom: 8px;
 }

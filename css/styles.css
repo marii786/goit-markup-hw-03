@@ -43,14 +43,6 @@ body {
     border-bottom: 1px solid var(--brand-color-cornflower);
 }  
 
-.header-container {
-    width: 1158px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0 15px;
-}
-
 .header-navbar {
     display: flex;
     align-items: center;

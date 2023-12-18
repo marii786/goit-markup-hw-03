@@ -280,8 +280,7 @@ footer {
 }
 
 .second-section-listli {
-  width: 100%;
-  min-width: 264px;
+    width: calc((100% - 72px) / 4);
 }
 
 .second-section-list-title {

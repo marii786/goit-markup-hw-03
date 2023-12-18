@@ -285,7 +285,6 @@ footer {
     width: calc((100% - 72px) / 4);
 }
 
-
 .second-section-list-title {
     font-weight: 500;
     font-size: 20px;
@@ -297,7 +296,7 @@ footer {
     margin-bottom: 8px;
 }
 
-.images-text-index {
+.second-section-list-paragraf {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

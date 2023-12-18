@@ -247,6 +247,7 @@ footer {
     margin-bottom: 188px;
     display: block;
     min-width: 169px;
+    height: 56px;
     border: none;
 }
 
@@ -338,7 +339,7 @@ footer {
 .third-section-listli {
     display: flex;
     gap: 24px;
-    calc((100% - 48px) / 3)
+    calc((100% - 48px) / 3);
 }
 
 /* Section 4 from main - index.html */

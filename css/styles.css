@@ -351,6 +351,7 @@ footer {
 
 .fourth-section {
   background-color: #ffffffff;
+  width: calc((100% - 72px) / 4);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-top-right-radius: 4px;
@@ -365,11 +366,6 @@ footer {
 .fourth-section-list {
   display: flex;
   gap: 24px;
-}
-
-.fourth-section {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .forth-section-div {

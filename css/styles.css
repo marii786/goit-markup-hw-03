@@ -286,6 +286,7 @@ footer {
 .about-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4)
 }
 
 .trait-container {
@@ -303,6 +304,7 @@ footer {
     color: var(--brand-color-navy-blue);
     font-style: normal;
     background-color: #ffffffff;
+    margin-bottom: 8px;
 }
 
 .images-text-index {

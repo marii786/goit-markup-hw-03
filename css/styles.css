@@ -33,7 +33,6 @@ body {
 }
 .container {
   width: 1158px;
-  display: flex;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -174,7 +173,7 @@ body {
 
 /* Footer symols */
 
-footer {
+.footer {
   font-family: var(--logo-font-family);
   background-color: var(--brand-color-navy-blue);
   display: flex;
@@ -280,7 +279,7 @@ footer {
 }
 
 .second-section-listli {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .second-section-list-title {
@@ -351,8 +350,8 @@ footer {
 
 .fourth-section {
   background-color: #ffffffff;
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  border-radius: 0px 0px 4px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
+  width: 264px;
 }
 
 .forth-section-main-title {

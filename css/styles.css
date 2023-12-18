@@ -336,7 +336,6 @@ footer {
 
 .third-section-listli {
     display: flex;
-    gap: 24px;
     width: calc((100% - 48px) / 3);
 }
 

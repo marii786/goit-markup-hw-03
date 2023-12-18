@@ -343,10 +343,14 @@ footer {
 
 /* Section 4 from main - index.html */
 
+.fourth-section-main {
+    padding: 120px 0;
+}
+
 .fourth-section-list {
     background-color: var(--brand-color-cloud);
     display: flex;
-    gap: 24px;
+    gap: 24px;  
 }
 
 .fourth-section {

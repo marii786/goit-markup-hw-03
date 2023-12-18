@@ -276,18 +276,17 @@ footer {
     overflow: hidden;
   }
 
-.about-list {
+.second-section-list {
     display: flex;
     gap: 24px;
 }
 
-.trait-container {
-    display: flex;
+.second-section-listli {
     width: calc((100% - 72px) / 4);
 }
 
 
-.images-title-index {
+.second-section-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -339,7 +338,7 @@ footer {
 .third-section-listli {
     display: flex;
     gap: 24px;
-    calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 /* Section 4 from main - index.html */

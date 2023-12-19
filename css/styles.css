@@ -210,7 +210,7 @@ body {
 }
 
 .portfolio-row-list {
-  width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-div-section {
@@ -328,7 +328,8 @@ body {
 }
 
 .second-section-listli {
-  width: calc((100% - 72px) / 4);
+    width: 100%;
+    min-width: 264px;
 }
 
 .second-section-list-title {

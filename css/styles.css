@@ -55,14 +55,11 @@ body {
 }
 
 .logo-web {
-  font-weight: 800;
-  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.54px;
   color: var(--brand-color-iris);
-  font-family: "Raleway", sans-serif;
+  font-family: var(--logo-font-family);
   text-transform: uppercase;
-  text-decoration: none;
   margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;

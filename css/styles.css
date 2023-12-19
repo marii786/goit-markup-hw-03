@@ -207,8 +207,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  justify-content: center;
-  gap: 24px;
 }
 
 .portfolio-row-list {

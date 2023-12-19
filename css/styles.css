@@ -112,7 +112,7 @@ body {
 .hearder-address-elements {
   display: flex;
   gap: 40px;
-}
+}   
 
 .contact {
   color: var(--brand-color-slate);
@@ -246,7 +246,6 @@ body {
   text-transform: uppercase;
   font-weight: 800px;
   font-family: "Raleway", sans-serif;
-  display: inline-block;
   margin-bottom: 16px;
 }
 

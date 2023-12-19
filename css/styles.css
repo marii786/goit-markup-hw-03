@@ -55,13 +55,13 @@ body {
 }
 
 .logo-web {
+  display: inline-block;
   line-height: 1.17;
   letter-spacing: 0.54px;
   color: var(--brand-color-iris);
   font-family: var(--logo-font-family);
   text-transform: uppercase;
   margin-right: 76px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -75,6 +75,7 @@ body {
   font-weight: 800px;
   font-family: var(--logo-font-family);
   margin-right: 76px;
+  display: inline-block;
 }
 
 .header-navbar-list {
@@ -223,6 +224,7 @@ body {
   background-color: var(--brand-color-navy-blue);
   display: flex;
   padding: 100px 0;
+  display: inline-block;
 }
 
 .footer-paragraf {
@@ -232,24 +234,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-
-.logo-web-footer {
-    display: inline-block;
-    width: 44px;
-    height: 21px;
-    flex-direction: column;
-    justify-content: center;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    color: var(--brand-color-iris);
-    font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-right: 76px;
-    margin-bottom: 16px;
 }
 
 .logo-studio-footer {

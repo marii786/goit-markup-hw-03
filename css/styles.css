@@ -56,13 +56,14 @@ body {
 
 .logo-web {
   display: inline-block;
+  font-weight: 800;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.54px;
   color: var(--brand-color-iris);
-  font-family: var(--logo-font-family);
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  margin-right: 76px;
-  margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .logo-studio {

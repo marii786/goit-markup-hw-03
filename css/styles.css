@@ -389,7 +389,6 @@ body {
 }
 
 .third-section-listli {
-  display: flex;
   width: calc(100% - 48px) / 3;
 }
 

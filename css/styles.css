@@ -208,7 +208,7 @@ body {
 }
 
 .portfolio-row-list {
-  flex-basis: calc(100%-48px) / 3;
+  flex-basis: calc(100% - 48px) / 3;
 }
 
 .portfolio-div-section {
@@ -325,7 +325,7 @@ body {
 }
 
 .second-section-listli {
-    width: calc((100%-72px)/4);
+    width: calc(100% - 72px) / 4;
 }
 
 .second-section-list-title {
@@ -379,7 +379,7 @@ body {
 
 .third-section-listli {
   display: flex;
-  width: calc((100%-48px)/3);
+  width: calc(100% - 48px) / 3;
 }
 
 /* Section 4 from main - index.html */
@@ -397,7 +397,7 @@ body {
 .fourth-section {
   background-color: #ffffffff;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100%-72px)/4);
+  width: calc(100% - 72px) / 4;
 }
 
 .forth-section-main-title {

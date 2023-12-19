@@ -13,7 +13,6 @@ body {
   background-color: #ffffffff;
   font-family: var(--header-font-family);
   color: var(--brand-color-slate);
-  width: 1440px;
 }
 
 *,

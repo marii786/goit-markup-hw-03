@@ -32,18 +32,22 @@ body {
   display: block;
   max-width: 100%;
 }
-.container {
-  width: 1158px;
-  display: flex;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+
+.header-section {
+  border-bottom: 1px solid var(--brand-color-cornflower);
 }
 
-.header-second-container {
-  width: 1158px;
+.header-container {
   display: flex;
-  border-bottom: 1px solid var(--brand-color-cornflower);
+  align-items: center;
+  padding: 24px 156px;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-navbar {
@@ -269,6 +273,7 @@ body {
   background-color: #2e2f42;
   color: white;
   display: flex;
+  text-align: center;
   padding: 188px 0;
 }
 
@@ -276,10 +281,12 @@ body {
   font-family: var(--header-font-family);
   font-size: 56px;
   font-style: normal;
+  text-align: center;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  padding-bottom: 48px;
   margin: 0 auto;
 }
 

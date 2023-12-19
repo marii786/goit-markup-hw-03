@@ -64,6 +64,7 @@ body {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -76,7 +77,6 @@ body {
   font-weight: 800px;
   font-family: var(--logo-font-family);
   margin-right: 76px;
-  display: inline-block;
 }
 
 .header-navbar-list {

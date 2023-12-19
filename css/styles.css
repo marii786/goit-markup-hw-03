@@ -137,13 +137,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--brand-color-cloud);
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .button-filters:hover,
 .button-filters:focus {
   background-color: var(--brand-color-ocean);
   color: #ffffffff;
-  border: none;
+  border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .pointer {

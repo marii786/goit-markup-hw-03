@@ -341,7 +341,7 @@ body {
 }
 
 .second-section-listli {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
   width: 100%;
   min-width: 264px;
   flex-direction: column;
@@ -392,10 +392,14 @@ body {
 
 .third-section-list {
   display: flex;
-  align-items: center;
   flex-direction: row;
-  padding: 72px 156px 120px 156px;
+  width: 1128px;
   gap: 24px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .third-section-listli {

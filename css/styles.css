@@ -112,7 +112,7 @@ body {
 .hearder-address-elements {
   display: flex;
   gap: 40px;
-}   
+}
 
 .contact {
   color: var(--brand-color-slate);
@@ -210,7 +210,7 @@ body {
 }
 
 .portfolio-row-list {
-    width: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-div-section {
@@ -327,8 +327,8 @@ body {
 }
 
 .second-section-listli {
-    width: 100%;
-    min-width: 264px;
+  width: 100%;
+  min-width: 264px;
 }
 
 .second-section-list-title {

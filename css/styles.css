@@ -243,6 +243,10 @@ body {
   letter-spacing: 0.32px;
 }
 
+.logo-web-footer {
+    display: inline-block;
+}
+
 .logo-studio-footer {
   color: var(--brand-color-cloud);
   font-size: 18px;

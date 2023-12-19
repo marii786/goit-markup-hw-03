@@ -405,6 +405,7 @@ body {
 /* Section 4 from main - index.html */
 
 .fourth-section-main {
+  background: var(--brand-color-cloud);
   padding: 120px 0;
 }
 
@@ -421,12 +422,19 @@ body {
 }
 
 .forth-section-main-title {
-  display: flex;
+  color: var(--brand-color-navy-blue);
+  font-size: 36px;
+  font-weight: 700px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: capitalize;
   margin-bottom: 72px;
 }
 
 .fourth-section-list {
   display: flex;
+  flex-direction: row;
   gap: 24px;
 }
 

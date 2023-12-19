@@ -144,12 +144,13 @@ body {
 .button-filters {
   font-family: var(--header-font-family);
   border: none;
-  color: #4d5ae5;
+  color: var(--brand-color-iris);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  background-color: var(--brand-color-cloud);
+  cursor: pointer;
+  background: var(--brand-color-cloud);
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -157,9 +158,9 @@ body {
 
 .button-filters:hover,
 .button-filters:focus {
-  background-color: var(--brand-color-ocean);
+  background: var(--brand-color-ocean);
   color: #ffffffff;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 0px solid rgba(0, 0, 0, 0);
 }
 
 .pointer {

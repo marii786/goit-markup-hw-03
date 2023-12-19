@@ -244,6 +244,7 @@ body {
 }
 
 .logo-web-footer {
+    display: inline-block;
     width: 44px;
     height: 21px;
     flex-direction: column;
@@ -257,7 +258,6 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 76px;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -351,8 +351,7 @@ body {
 }
 
 .second-section-listli {
-  width: 100%;
-  min-width: 264px;
+    width: calc((100%-72px)/4);
 }
 
 .second-section-list-title {

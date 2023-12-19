@@ -215,7 +215,8 @@ body {
 }
 
 .portfolio-row-list {
-  flex-basis: calc(100% - 48px) / 3;
+  width: calc((100% - 48px) / 3);
+  text-decoration: none;
 }
 
 .portfolio-div-section {

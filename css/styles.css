@@ -336,12 +336,17 @@ body {
 }
 
 .second-section-list {
-  display: flex;
-  gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 
 .second-section-listli {
-  width: calc((100%-72px)/4);
+    width: calc((100%-72px)/4);
+    width: 100%;
+    min-width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .second-section-list-title {

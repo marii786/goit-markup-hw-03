@@ -224,7 +224,6 @@ body {
   background-color: var(--brand-color-navy-blue);
   display: flex;
   padding: 100px 0;
-  display: inline-block;
 }
 
 .footer-paragraf {

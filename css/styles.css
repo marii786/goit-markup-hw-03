@@ -336,17 +336,17 @@ body {
 }
 
 .second-section-list {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .second-section-listli {
-    width: calc((100%-72px)/4);
-    width: 100%;
-    min-width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+  width: calc((100%-72px) / 4);
+  width: 100%;
+  min-width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .second-section-list-title {
@@ -455,9 +455,9 @@ body {
 
 .forth-section-paragraf {
   color: var(--brand-color-slate);
-    text-align: center;
-    font-family: var(--header-font-family);
-    line-height: 150%;
-    letter-spacing: 0.32px;
-    margin-bottom: 32px;
+  text-align: center;
+  font-family: var(--header-font-family);
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  margin-bottom: 32px;
 }

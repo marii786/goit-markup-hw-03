@@ -70,7 +70,6 @@ body {
 .logo-studio {
   color: var(--brand-color-navy-blue);
   font-size: 18px;
-  font-style: var(--logo-font-family);
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -103,6 +102,7 @@ body {
 
 .header-address {
   color: var(--brand-color-slate);
+  font-style: normal;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.32px;
@@ -111,8 +111,13 @@ body {
 .hearder-address-elements {
   display: flex;
   gap: 40px;
+  padding-left: 251px;
 }
 
+.header-address:hover,
+.header-address:focus {
+  color: var(--brand-color-cloud);
+}
 .contact {
   color: var(--brand-color-slate);
   font-size: 16px;

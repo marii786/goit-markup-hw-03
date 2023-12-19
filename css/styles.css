@@ -443,10 +443,21 @@ body {
 }
 
 .forth-section-h-titles {
+  color: var(--brand-color-navy-blue);
   text-align: center;
+  font-family: var(--header-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
   margin-bottom: 8px;
 }
 
 .forth-section-paragraf {
-  text-align: center;
+  color: var(--brand-color-slate);
+    text-align: center;
+    font-family: var(--header-font-family);
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    margin-bottom: 32px;
 }

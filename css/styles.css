@@ -244,7 +244,21 @@ body {
 }
 
 .logo-web-footer {
+    width: 44px;
+    height: 21px;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    color: var(--brand-color-iris);
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 76px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-studio-footer {

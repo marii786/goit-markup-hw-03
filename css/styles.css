@@ -223,8 +223,10 @@ body {
 }
 
 .portfolio-row-list {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
   text-decoration: none;
+  width: 100%;
+  min-width: 360px;
 }
 
 .portfolio-div-section {

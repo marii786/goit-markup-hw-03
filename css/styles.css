@@ -272,7 +272,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 188px 0 188px;
+  padding: 188px 0;
 }
 
 .first-section-title {
@@ -283,8 +283,6 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  display: flex;
-  padding: 188px 472px 48px 472px;
   max-width: 496px;
 }
 .first-section-button {
@@ -295,17 +293,13 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--brand-color-iris);
   color: #ffffff;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  border: 0px solid var(--brand-color-iris);
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-bottom: 188px;
   display: block;
   min-width: 169px;
   height: 56px;
   border: none;
+  border: 0px solid var(--brand-color-iris);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .first-section-button:hover,

@@ -262,7 +262,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   padding: 188px 0 188px;
 }
 

@@ -162,7 +162,7 @@ body {
   cursor: pointer;
   background: var(--brand-color-cloud);
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--brand-color-cornflower);
   border-radius: 4px;
 }
 
@@ -170,7 +170,7 @@ body {
 .button-filters:focus {
   background: var(--brand-color-ocean);
   color: #ffffffff;
-  border: 0px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .pointer {
@@ -212,18 +212,7 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-}
-
-.portfolio-button-sublist {
-  padding: 12px 24px;
-  border: 1px solid var(--brand-color-cornflower);
-  border-radius: 4px;
-}
-
-.portfolio-button-sublist:hover,
-.portfolio-button-sublist:focus {
-  border: 1px solid rgba(0, 0, 0, 0);
-  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 0;
 }
 
 .portfolio-row-section-list {

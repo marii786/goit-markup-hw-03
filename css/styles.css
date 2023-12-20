@@ -248,6 +248,7 @@ body {
 
 .footer-paragraf {
   color: var(--brand-color-cloud);
+  font-family: var(--header-font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

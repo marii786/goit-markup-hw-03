@@ -26,6 +26,12 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .link:hover,
 .link:focus {
   color: var(--brand-color-ocean);
@@ -41,10 +47,12 @@ body {
 }
 
 .header-container {
-  display: flex;
-  align-items: center;
-  padding: 24px 156px;
-  justify-content: space-between;
+    display: flex;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    justify-content: space-between;
 }
 
 .container {
@@ -74,7 +82,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
-  margin-bottom: 16px;
 }
 
 .logo-studio {
@@ -115,12 +122,15 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.32px;
+  display: flex;
+  align-items: center;
 }
 
 .hearder-address-elements {
   display: flex;
   gap: 40px;
-  padding-left: 251px;
+  align-items: center;
+  padding: 0;
 }
 
 .header-address:hover,
